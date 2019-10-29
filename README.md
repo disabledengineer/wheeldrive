@@ -1,2 +1,2 @@
 # wheeldrive
-Innovative custom wheelchair drive which utilizes high power BLDC motors
+Innovative custom wheelchair drive which utilizes BLDC motors.
