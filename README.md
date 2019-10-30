@@ -15,7 +15,7 @@ I recommend using the VESC because it's an open-source project and can be progra
 + Use FOC for more start up torque
 + Start with low motor amperage (10A, then go up to 20A or even 50A)
 + Make sure your battery amperage is set to half of what your battery is rated for!
-+ Use current control, that way you control the torque instead of the RPM
++ Use current control, that way you control the torque instead of the RPM  
 https://vesc-project.com/
 ## Mechanics
 I used HTD5M Timing belts to transfer the torque from the motor to the wheels. The belts must be at least 9mm wide to properly transfer the torque without skipping and damaging the belts and pulleys. To properly tension the belt I simply used two bearings as a idler pulley, there is a cutout for it on the motor mount!
