@@ -11,11 +11,10 @@ In general BLDC motors are the best choice for this application because they off
 https://alienpowersystem.com/shop/brushless-motors/aps-6374s-sensored-outrunner-brushless-motor-30kv-2800w/
 https://alienpowersystem.com/shop/brushless-motors/aps-6374s-sensored-outrunner-brushless-motor-60kv-2800w/
 ## Motor Controller
-I recommend using the VESC because it's an open-source project and can be programmed specifically for this application. Many ESCs are designed for RC-Cars, Airplanes, or boats. Using a VESC you have a wide range of settings to perfectly fit your needs. There are many tutorials on the internet on how to set this up, so I won't go into detail. However here are some tips:
+I recommend using the VESC (https://vesc-project.com) because it's an open-source project and can be programmed specifically for this application. Many ESCs are designed for RC-Cars, Airplanes, or boats. Using a VESC you have a wide range of settings to perfectly fit your needs. There are many tutorials on the internet on how to set this up, so I won't go into detail. However here are some tips:
 + Use FOC for more start up torque
 + Start with low motor amperage (10A, then go up to 20A or even 50A)
 + Make sure your battery amperage is set to half of what your battery is rated for!
-+ Use current control, that way you control the torque instead of the RPM  
-https://vesc-project.com/
++ Use current control, that way you control the torque instead of the RPM
 ## Mechanics
 I used HTD5M Timing belts to transfer the torque from the motor to the wheels. The belts must be at least 9mm wide to properly transfer the torque without skipping and damaging the belts and pulleys. To properly tension the belt I simply used two bearings as a idler pulley, there is a cutout for it on the motor mount!
