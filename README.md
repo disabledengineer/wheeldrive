@@ -1,4 +1,4 @@
-# wheeldrive
+# Wheeldrive
 Innovative custom wheelchair drive which utilizes high power BLDC motors.
 
 I talk alot about this project on my Instagram!  
